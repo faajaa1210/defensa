@@ -1,0 +1,56 @@
+body {
+    background-image: url(https://art.pixilart.com/sr2a849b68b3baws3.gif);
+  }
+  .padre {
+    width: 80%;
+    margin: 40px auto;
+    background-color: white ;
+    padding: 20px;
+  }
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: #31909c;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  .menu li {
+    margin-right: 20px;
+  }
+  .menu a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.2s ease;
+  }
+  .menu a:hover {
+    color: #ffffff;
+  }
+  .contenido {
+    padding: 20px;
+    margin-top: 60px;
+  }
+  .contenido h1 {
+    font-size: 24px;
+    margin-bottom: 18px;
+    color: #333;
+  }
+  .contenido p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  #root {
+    max-width: 1280px ;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+ .jh{
+    position: relative ;
+    top: 30px; 
+ }
